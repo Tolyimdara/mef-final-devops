@@ -30,7 +30,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd app
+          cd starter-project/app
           npm install
           npm run build
 
