@@ -17,5 +17,6 @@ spec:
       containers:
         - name: react-app-container
           image: 490765254799.dkr.ecr.us-east-1.amazonaws.com/react-app-2048-ss:latest  # Update with your ECR image URI
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
